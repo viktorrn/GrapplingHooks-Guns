@@ -1,0 +1,14 @@
+<!DocType html>
+<head></head>
+<body>
+    <script text="text/javascript">
+        
+        document.onpointerdown = ()=>{
+            //you may choose to deduct some value from current screen size
+            console.log("heh")
+            let height = 600 //window.screen.availHeight-100;
+            let width = 600 //window.screen.availWidth-150;
+            window.open("game.html","mywindow",`menubar=0,resizable=0,width=${width},height=${height}`);
+        }
+    </script>
+</body>
